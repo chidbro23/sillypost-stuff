@@ -113,6 +113,7 @@ background-color: #15131a;
   margin-bottom: 10px;
 }
 .ctform > button[type="submit"] {
-  background-color: #15131a;
-  border: 2px solid #000001;
+  background-color: #25232f;
+  border: 2px solid #000;
+  border-radius: 4px;
 }
