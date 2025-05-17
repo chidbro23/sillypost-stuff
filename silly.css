@@ -18,6 +18,9 @@ body {
 body {
   font-family: arial;
 }
+#header {
+  border-bottom: 1px solid #f8e6ff;
+}
 #content {
   background-color: #25232f;
   padding: 10px;
@@ -61,8 +64,8 @@ background-color: #15131a;
     gap: 8px;
     padding: 12px;
     background: #25232f;
-    border-radius: 8px;
     justify-content: center;
+    border-bottom: 1px solid #f8e6ff;
 }
 
 /* Individual navbar links/pills */
