@@ -1,0 +1,118 @@
+#logo {
+  content: url("https://rb3dx.milohax.org/images/logo.png");
+}
+body {
+  background-image: url("https://media.tenor.com/rV2ZKVZAMlwAAAAM/cat-colon-three.gif");
+}
+#wrapper {
+  box-shadow: 0 0 10px #000;
+}
+#main p {
+  background-color: #25232f;
+  padding: 10px;
+  border: 2px solid #000001;
+  box-shadow: 5px 5px #0a090d;
+  color: #fff;
+  border-radius: 8px;
+}
+body {
+  font-family: arial;
+}
+#content {
+  background-color: #25232f;
+  padding: 10px;
+  border: 2px solid #000001;
+  box-shadow: 5px 5px #0a090d;
+  color: #fff;
+  border-radius: 8px;
+}
+#search-bar {
+background-color: #15131a;
+  padding: 10px;
+  border: 2px solid #000001;
+  box-shadow: 5px 5px #0a090d;
+  color: #fff;
+  border-radius: 8px;
+}
+#new-post {
+background-color: #15131a;
+  padding: 10px;
+  border: 2px solid #000001;
+  box-shadow: 5px 5px #0a090d;
+  color: #fff;
+  border-radius: 8px;
+}
+/* Silly market :3 */
+#sillymarket-area {
+background-color: #15131a;
+  padding: 10px;
+  border: 2px solid #000001;
+  box-shadow: 5px 5px #0a090d;
+  color: #fff;
+  border-radius: 8px;
+}
+
+
+
+/* Navbar styling */
+#navbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 12px;
+    background: #25232f;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+/* Individual navbar links/pills */
+#navbar a {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #15131a;
+    color: #15131a;
+    text-decoration: none;
+    border-radius: 8px; /* This creates the pill shape */
+    font-weight: 500;
+    transition: all 0.2s ease;
+    border: 2px solid #000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Hover effect */
+#navbar a:hover {
+    background: #0a090d;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Active state */
+#navbar a:active {
+    transform: translateY(0px);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Current page indicator */
+#navbar a.current {
+    background: #e0e0e0;
+    border-color: #d0d0d0;
+}
+.post:nth-child(2n) {
+  background: #15131a;
+}
+
+.post {
+  background: #15131a;
+  padding: 10px;
+  border: 2px solid #000001;
+  box-shadow: 5px 5px #0a090d;
+  color: #fff;
+  border-radius: 8px;
+  border-bottom: unset;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.ctform > button[type="submit"] {
+  background-color: #15131a;
+  border: 2px solid #000001;
+}
